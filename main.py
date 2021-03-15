@@ -1,8 +1,9 @@
 #Write your code below this line 👇
-
-
-
-
+import math 
+def paint_calc(height, width, cover):
+  number_of_cans=(height*width)/cover
+  round_number_of_cans=math.ceil(number_of_cans)
+  print(f"You'll need {round_number_of_cans} cans of paint")
 
 
 
